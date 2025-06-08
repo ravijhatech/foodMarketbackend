@@ -7,7 +7,7 @@ dotenv.config({path:'.env'})
 
 const app = express();
 app.use(cors({
-  origin: '*', 
+  origin: 'https://foodmarketfrontend.onrender.com', 
   credentials: true 
 }));
 app.use(express.json());
